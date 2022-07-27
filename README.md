@@ -2,15 +2,15 @@
 
 In a nutshell: The slangID project tries to detect slang phrases / sentences.
 
-You can train Machine Learning Models with a selection of classifiers, and print out a test set of sentences with the **DEMO** button.
+You can train a selection of Machine Learning Models, and print out a test set of sentences with the **DEMO** button.
 Or you can type a phrase and see what type it is  identified as.
 
 # Challenges
 
-Due to a lack of data, the results, regardless of the classifier used, are not good enough.
+Due to a lack of data, the results, regardless of the classifier used, are not good enough right now.
  Certain bigram slang words like (_a_) _**real one**_ are more difficult to resolve since the provided models do not take n-grams into consideration.
  
-# How to run _slangID2.0_
+# How to run slangID2.0
 
 Either run the **.exe** file (**Windows and Linux available**), or:
 
