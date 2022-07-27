@@ -18,3 +18,19 @@ Either run the **.exe** file (**Windows and Linux available**), or:
 2. Install the required packages by running **_pip install -r requirements.txt_** in your shell of choice. Make sure you are in the directory where the file is located.
 3. In the project directory, open your shell (or navigate there in the shell) and run _**python slangID2.0_Windows.py** or **slangID2.0_Linux.py**_ (the difference between both versions is just the font size on some labels and buttons).
 
+# Screenshot
+
+![slangID2.0](misc/slangID2.0_Screenshot.png)
+
+# Source of the data
+
+Most of the hand-picked sentences come from archive.org's [Twitter Stream of June 6th](https://archive.org/details/archiveteam-twitter-stream-2021-06).
+
+Some of the sentences / phrases come from me personally, which you might recognize due to their sad and depressing nature.
+
+# Recognition of Open Source use
+
+* scikit-learn
+* pandas
+* tkinter
+* PyInstaller
