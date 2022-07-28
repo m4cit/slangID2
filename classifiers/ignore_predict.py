@@ -6,6 +6,11 @@ from sklearn import svm
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.naive_bayes import MultinomialNB   
+from .log_regression import dm_log_reg, dm_train_log
+from .linear_svm import dm_lin_svm, dm_train_svm
+from .decision_tree import dm_dec_tree, dm_train_dt
+from .gaussian_nb import dm_naive_g, dm_train_nbg
+from .multinomial_nb import dm_naive_m, dm_train_nbm
 import pickle
 
 ################ splitting the data #########################################################
@@ -21,6 +26,7 @@ vect_train_x = vectorizer.fit_transform(train_x)
 vect_test_x = vectorizer.transform(test_x)
 
 ############## functions to train classifiers ################
+
 def train_svm():
     clf_svm = svm.SVC(kernel='linear', C=16)
     clf_svm.fit(vect_train_x, train_y)
@@ -114,6 +120,7 @@ def predictor_naive_m(input):
         print(" mean accuracy: ", loaded_clf.score(vect_test_x, test_y))
     test_score()
 
+# training all models
 def train_all():
     train_svm()
     train_dt()
@@ -121,9 +128,26 @@ def train_all():
     train_nbm()
     train_log()
 
+# running all models
 def predictor_all(input):
     predictor_svm(input)
     predictor_dec(input)
     predictor_naive_g(input)
     predictor_naive_m(input)
     predictor_log(input)
+
+# training all demo models
+def dm_train_all():
+    dm_train_svm()
+    dm_train_dt()
+    dm_train_nbg()
+    dm_train_nbm()
+    dm_train_log()
+
+# running all demo models
+def dm_predict_all():
+    dm_lin_svm()
+    dm_dec_tree()
+    dm_naive_g()
+    dm_naive_m()
+    dm_log_reg()
