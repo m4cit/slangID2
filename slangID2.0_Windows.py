@@ -13,6 +13,7 @@ from classifiers.multinomial_nb import dm_naive_m, dm_train_nbm
 import os
 import platform
 
+# training all demo models
 def dm_train_all():
     dm_train_svm()
     dm_train_dt()
@@ -20,6 +21,7 @@ def dm_train_all():
     dm_train_nbm()
     dm_train_log()
 
+# running all demo models
 def dm_predict_all():
     dm_lin_svm()
     dm_dec_tree()
@@ -27,25 +29,32 @@ def dm_predict_all():
     dm_naive_m()
     dm_log_reg()
 
+# clear function for the shell / cmdlet
 def clear():
     if platform.system() == "Windows":
         os.system("CLS")
     elif platform.system() == "Linux":
         os.system("clear")
 
+# initiating the  Tk module
 root = tk.Tk()
 
+# main window with pixel sizes defined
 canvas = tk.Canvas(root, height=450, width=800)
 canvas.pack()
 
+# frame inside the main window
 frame = tk.Frame(root, bg="white")
 frame.place(relwidth=1, relheight=1)
 
+# field for input
 phrase_entry = tk.Text(root, relief="sunken", bd=5, font=("Calibri", 16))
 phrase_entry.place(height=100, width=760, x=20, y=50)
 
+# loading up an image
 logo_image = tk.PhotoImage(file="misc/slangID_Logo_bg.png")
 
+# placing a background image
 logo_bg = tk.Label(frame, image=logo_image)
 logo_bg.place(anchor="n", x=397, y=-3)
 
