@@ -24,9 +24,9 @@ Either run the **.exe** file (**Windows available**), or:
 
 # Source of the data
 
-Most of the hand-picked sentences come from archive.org's [Twitter Stream of June 6th](https://archive.org/details/archiveteam-twitter-stream-2021-06).
+Most of the phrases are hand-picked and come from archive.org's [Twitter Stream of June 6th](https://archive.org/details/archiveteam-twitter-stream-2021-06).
 
-Some of the sentences / phrases come from me personally, which you might recognize due to their sad and depressing nature.
+Some come from me personally, which you might recognize due to their sad and depressing nature.
 
 # Recognition of Open Source use
 
