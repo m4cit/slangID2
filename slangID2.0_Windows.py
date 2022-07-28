@@ -4,30 +4,9 @@ from classifiers.ignore_predict import train_log, predictor_log
 from classifiers.ignore_predict import train_dt, predictor_dec
 from classifiers.ignore_predict import train_nbg, predictor_naive_g
 from classifiers.ignore_predict import train_nbm, predictor_naive_m
-from classifiers.ignore_predict import predictor_all, train_all
-from classifiers.log_regression import dm_log_reg, dm_train_log
-from classifiers.linear_svm import dm_lin_svm, dm_train_svm
-from classifiers.decision_tree import dm_dec_tree, dm_train_dt
-from classifiers.gaussian_nb import dm_naive_g, dm_train_nbg
-from classifiers.multinomial_nb import dm_naive_m, dm_train_nbm
+from classifiers.ignore_predict import predictor_all, train_all, dm_predict_all, dm_train_all
 import os
 import platform
-
-# training all demo models
-def dm_train_all():
-    dm_train_svm()
-    dm_train_dt()
-    dm_train_nbg()
-    dm_train_nbm()
-    dm_train_log()
-
-# running all demo models
-def dm_predict_all():
-    dm_lin_svm()
-    dm_dec_tree()
-    dm_naive_g()
-    dm_naive_m()
-    dm_log_reg()
 
 # clear function for the shell / cmdlet
 def clear():
