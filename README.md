@@ -20,7 +20,7 @@ Either run the **.exe** file (**Windows available**), or:
 
 # Screenshot
 
-![slangID2.0](misc/slangID2.0_Screenshot.png )
+
 
 # Source of the data
 
