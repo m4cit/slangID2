@@ -32,5 +32,4 @@ Some of the sentences / phrases come from me personally, which you might recogni
 
 * scikit-learn
 * pandas
-* tkinter
 * PyInstaller
