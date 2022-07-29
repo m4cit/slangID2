@@ -17,6 +17,8 @@ Either run the **.exe** file (**Windows available**), or:
 2. Install the required packages by running **_pip install -r requirements.txt_** in your shell of choice. Make sure you are in the directory where the file is located.
 3. In the project directory, open your shell (or navigate there in the shell) and run _**python slangID2.0_Windows.py** or **slangID2.0_Linux.py**_ (the difference between both versions is just the font size on some labels and buttons).
 
+Note: for any change in the modules you have to create a new executable.
+
 # Screenshot
 
 ![slangID2.0](misc/slangID2.0_screenshot.png)
