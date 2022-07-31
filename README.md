@@ -17,7 +17,11 @@ Either run the **.exe** file (**Windows available**), or:
 2. Install the required packages by running **_pip install -r requirements.txt_** in your shell of choice. Make sure you are in the project directory.
 3. And then run _**python slangID2.0_Windows.py** or **python3 slangID2.0_Linux.py**_ (the difference between both versions is just the font size on some labels and buttons).
 
-**Note:** for any change in the modules you have to create a new executable, or just run the .py file.
+**Note:** 
+
+1. For any change in the modules you have to create a new executable, or just run the .py file.
+
+2. It might take a while to load. Be patient.
 
 # Screenshot
 
