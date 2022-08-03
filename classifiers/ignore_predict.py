@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn import svm
@@ -21,7 +21,7 @@ train_y = [x for x in train['type']]
 test_x = [x for x in test['phrase']]
 test_y = [x for x in test['type']]
 
-vectorizer = TfidfVectorizer(ngram_range=(1,2))
+vectorizer = CountVectorizer(ngram_range=(1,2))
 vect_train_x = vectorizer.fit_transform(train_x)
 vect_test_x = vectorizer.transform(test_x)
 
