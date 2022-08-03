@@ -1,5 +1,5 @@
 from sklearn.model_selection import train_test_split
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 import pandas as pd
 
 # loading data
@@ -14,7 +14,7 @@ train_y = [x for x in train['type']]
 test_x = [x for x in test['phrase']]
 test_y = [x for x in test['type']]
 
-vectorizer = TfidfVectorizer(ngram_range=(1,2))
+vectorizer = CountVectorizer(ngram_range=(1,2))
 # fit transforming train_x
 vect_train_x = vectorizer.fit_transform(train_x)
 # transforming test_x
