@@ -5,7 +5,7 @@ import pickle
 
 # function to train the classifier
 def dm_train_svm():
-    clf_svm = svm.SVC(kernel='linear', C=16)
+    clf_svm = svm.SVC(kernel='linear')
     clf_svm.fit(vect_train_x, train_y)
     # saving trained classifier
     with open('classifiers/models/linear_svm_classifier.pkl', 'wb') as f:
