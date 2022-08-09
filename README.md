@@ -17,9 +17,7 @@ Due to a lack of data, the results, regardless of the classifier used, are not g
 
 **Note:** 
 
-1. For any change in the modules you have to create a new executable, or just run the .py file.
-
-2. It might take a while to load. Be patient.
+1. It might take a while to load. Be patient.
 
 # Screenshot
 
