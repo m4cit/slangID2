@@ -15,9 +15,7 @@ Due to a lack of data, the results, regardless of the classifier used, are not g
 2. Install the required packages by running `pip install -r requirements.txt` in your shell of choice. Make sure you are in the project directory.
 3. And then run `python slangID2.0_Windows.py` or `python3 slangID2.0_Linux.py` (the difference between both versions is just the font size on some labels and buttons).
 
-**Note:** 
-
-1. It might take a while to load. Be patient.
+**Note:** It might take a while to load. Be patient.
 
 # Screenshot
 
