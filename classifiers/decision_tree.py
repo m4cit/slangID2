@@ -5,7 +5,7 @@ import pickle
 
 # function to train the classifier
 def dm_train_dt():
-    clf_dt = DecisionTreeClassifier(criterion='log_loss', min_samples_split=10)
+    clf_dt = DecisionTreeClassifier(criterion='log_loss', min_samples_split=2)
     clf_dt.fit(vect_train_x, train_y)
     # saving trained classifier
     with open('classifiers/models/decision_tree_classifier.pkl', 'wb') as f:
