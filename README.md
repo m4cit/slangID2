@@ -8,6 +8,7 @@ Or you can type a phrase and see what type it is identified as. All the models a
 # Challenges
 
 Due to a lack of data, the results, regardless of the classifier used, are not good enough right now.
+ Unknown words are also an issue since the dataset is tiny.
  
 # How to run slangID2.0
 
