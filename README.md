@@ -9,7 +9,25 @@ Or you can type a phrase and see what type it is identified as. All the models a
 
 Due to a lack of data, the results, regardless of the classifier used, are not good enough right now.
  Unknown words are also an issue since the dataset is tiny.
+
+# Performance
+In total, there are five classifiers you can choose from:
+
+* Linear SVM (SVC with linear Kernel)
+* Decision Tree
+* Gaussian Naive Bayes
+* Multinomial Naive Bayes
+* Logistic Regression
+
+Currently the **best performer** is the **Gaussian Naive Bayes model** with an **F<sub>1</sub> score of 0.64**.
  
+**The Linear SVM**, as well as the **Decision Tree models** are tied with a score of **0.6**.
+
+**Logistic Regression** comes in third with **0.48**.
+
+**Multinomial Naive Bayes** could only manage **0.35**.
+
+
 # How to run slangID2.0
 
 1. Install Python **3.9** or later (3.8 and 3.10 is probably fine too, I used 3.9.12).
