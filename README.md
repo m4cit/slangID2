@@ -19,14 +19,15 @@ In total, there are five classifiers you can choose from:
 * Multinomial Naive Bayes
 * Logistic Regression
 
-Currently the **best performer** is the **Gaussian Naive Bayes model** with an **F<sub>1</sub> score of 0.64**.
+Currently the **best performer** is the **Gaussian Naive Bayes model** with an **F<sub>1</sub> score of 0.70**.
  
-**The Linear SVM**, as well as the **Decision Tree models** are tied with a score of **0.6**.
+**Multinomial Naive Bayes** comes in second with **0.64**
+ 
+**The Linear SVM** achieves a score of **0.63**
 
-**Logistic Regression** comes in third with **0.48**.
+**Logistic Regression** comes in fourth with **0.59**
 
-**Multinomial Naive Bayes** could only manage **0.35**.
-
+**Decision Tree** is the worst with effectively **0.4**
 
 # How to run slangID2.0
 
