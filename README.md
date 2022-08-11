@@ -19,7 +19,7 @@ In total, there are five classifiers you can choose from:
 * Multinomial Naive Bayes
 * Logistic Regression
 
-Currently the **best performer** is the **Gaussian Naive Bayes model** with an **F<sub>1</sub> score of 0.70**.
+Currently the **best performer** is the **Gaussian Naive Bayes model** with an **F<sub>1</sub> score of 0.70**
  
 **Logistic Regression** comes in second with **0.62**
 
