@@ -2,7 +2,7 @@
 
 In a nutshell: The slangID project tries to detect slang phrases. Something literally no one asked for...
 
-You can train a selection of Machine Learning Models, and print out a test set of phrases with the **DEMO** button.
+You can train a selection of Classifiers, and print out a test set of phrases with the **DEMO** button.
 Or you can type a phrase and see what type it is identified as. All the models are pre-trained, but you can re-train if needed.
 
 # Challenges
