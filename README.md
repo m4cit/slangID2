@@ -2,12 +2,12 @@
 
 In a nutshell: The slangID project tries to detect slang phrases. Something literally no one asked for...
 
-You can train a selection of Machine Learning Models, and print out a test set of phrases with the **DEMO** button.
+You can train a selection of classifiers, and print out a test set of phrases with the **DEMO** button.
 Or you can type a phrase and see what type it is identified as. All the models are pre-trained, but you can re-train if needed.
 
 # Challenges
 
-Due to a lack of data, the results, regardless of the classifier used, are not good enough right now.
+Due to a lack of data, the results, regardless of the classifier used, are not impressive right now.
  Unknown words are also an issue since the dataset is tiny.
 
 # Performance
@@ -19,14 +19,13 @@ In total, there are five classifiers you can choose from:
 * Multinomial Naive Bayes
 * Logistic Regression
 
-Currently the **best performer** is the **Gaussian Naive Bayes model** with an **F<sub>1</sub> score of 0.64**.
+Currently the **best performer** is the **Gaussian Naive Bayes model** with an **F<sub>1</sub> score of 0.70**
  
-**The Linear SVM**, as well as the **Decision Tree models** are tied with a score of **0.6**.
+**Logistic Regression** comes in second with **0.62**
 
-**Logistic Regression** comes in third with **0.48**.
+**Multinomial Naive Bayes** and **Linear SVM** are tied with **0.61**
 
-**Multinomial Naive Bayes** could only manage **0.35**.
-
+**Decision Tree** is the worst with **0.43** (changes after every training)
 
 # How to run slangID2.0
 
