@@ -8,7 +8,7 @@ Or you can type a phrase and see what type it is identified as. All the models a
 # Challenges
 
 Due to a lack of data, the results, regardless of the classifier used, are not impressive right now.
- Unknown words are also an issue since the dataset is tiny.
+ Unknown words are also an issue since the dataset is tiny. Slang phrases with normal words like 'sick' are not accounted for with a sentiment analysis either.
 
 # Performance
 In total, there are five classifiers you can choose from:
