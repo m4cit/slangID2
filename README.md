@@ -41,9 +41,7 @@ Currently the **best performer** is the **Gaussian Naive Bayes model** with an *
 
 # Source of the data
 
-Most of the phrases are hand-picked and come from archive.org's [Twitter Stream of June 6th](https://archive.org/details/archiveteam-twitter-stream-2021-06).
-
-Some come from me personally, which you might recognize due to their sad and depressing nature.
+Most of the phrases are hand-picked and come from archive.org's [Twitter Stream of June 6th](https://archive.org/details/archiveteam-twitter-stream-2021-06), some come from me personally.
 
 # Recognition of Open Source use
 
