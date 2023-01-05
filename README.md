@@ -31,7 +31,7 @@ Currently the **best performer** is the **Gaussian Naive Bayes model** with an *
 
 # Screenshot
 
-
+![slangID2.0](misc/slangID2.0_screenshot.png)
 
 # Source of the data
 
