@@ -1,4 +1,4 @@
-# Introducing slangID2.0
+# What is slangID
 
 In a nutshell: The slangID project tries to detect slang phrases. Something literally no one asked for...
 
