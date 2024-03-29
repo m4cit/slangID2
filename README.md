@@ -21,7 +21,7 @@ In total, there are five classifiers you can choose from:
 
 Currently the **best performer** is the **Gaussian Naive Bayes model** with an **F<sub>1</sub> score of ~65.70%**
 
-# How to run slangID2.0
+# How to run slangID2
 
 1. Install Python **3.9** or later (3.8 and 3.10 is probably fine too, I used 3.9.12).
 2. Install the required packages by running `pip install -r requirements.txt` in your shell of choice. Make sure you are in the project directory.
